@@ -144,7 +144,7 @@ int eval(std::string pst)
                 stack2.push(num);
             }
             else {
-                std::cout<<"Error."<<std::endl;
+                std::cout<<"Error.";
                 return 0;
             }
             break;
