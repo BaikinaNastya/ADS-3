@@ -1,8 +1,7 @@
 #include "tstack.h"
 #include <string>
 
-std::string infx2pstfx(std::string inf)
-{
+std::string infx2pstfx(std::string inf) {
   TStack<char> stack1;
     char buf[200], * str;
     int num=0;
@@ -93,8 +92,7 @@ std::string infx2pstfx(std::string inf)
     return pst;
 }
 
-int eval(std::string pst)
-{
+int eval(std::string pst) {
   TStack<int> stack2;
     int num, operand1, operand2;
     
